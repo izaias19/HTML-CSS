@@ -4,9 +4,9 @@
 :root {
 
     --cor0: #ffffff;
-    --cor1: #ff4500;
-    --cor2: #000000;
-    --cor3: #d3d300;
+    --cor1: #D90B1C;
+    --cor2: #FAF566;
+    --cor3: #9ACFDD;
     --cor4: #acacac;
     --cor5: #333d06;
 
@@ -26,33 +26,17 @@ p {
 
 
 body {
-    background-color: var(--cor1);
+    background-color: var(--cor0);
     font-family: var(--font-padrao);
 }
 
-header {
-    background-color: var(--cor3);
-    min-height: 50px;
-    padding-top: 12px;
-}
-
-header > h1 {
-    color: var(--cor2);
-    font-family: var(--font-padrao);
-    font-size: 3em;
-    margin: 0px 10px;
-    
-}
 
 main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    background-color: var(--cor0);
-   
-
+    background-color: var(--cor1);
 }
-
 
 
 nav > a:hover {
@@ -71,7 +55,16 @@ nav > a {
 nav {
     background-color: var(--cor1);
     padding: 10px;
+    line-height: 3;
+    
 }
+
+nav > img {
+    padding-left: 10% !important;
+    
+
+}
+
 
 main h1 {
     color: var(--cor1);
@@ -84,6 +77,11 @@ main article {
     margin: 0px 10px;
 }
 
+article h1 {
+
+    margin: 0px 10px
+}
+
 footer {
     background-color: var(--cor4);
     color: var(--cor0);
@@ -92,10 +90,6 @@ footer {
 
 }
 
-aside h3 {
-    padding: 15px;
-
-}
 
 aside > a {
     color: var(--cor1);
